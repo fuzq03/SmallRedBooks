@@ -14,6 +14,8 @@ import com.example.smallredbook.CircleImageView;
 import com.example.smallredbook.R;
 
 public class noteItemAdapter extends RecyclerView.Adapter<noteItemAdapter.noteItemHolder> {
+
+    ImageView imageView;
     @NonNull
     @Override
     public noteItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -25,6 +27,10 @@ public class noteItemAdapter extends RecyclerView.Adapter<noteItemAdapter.noteIt
     @Override
     public void onBindViewHolder(@NonNull noteItemHolder holder, int position) {
         Log.d("Here", "onBindViewHolder:111 ");
+
+        if(position == 5){
+            holder.notePicture.setImageResource(R.drawable.picture);
+        }
 
     }
 

@@ -10,25 +10,33 @@
         android:id="@+id/nav_home_page"
         android:name="com.example.smallredbook.ui.fragment.HomePageFragment"
         android:label="home_page"
-        tools:layout="@layout/fragment_home_page"/>
+        tools:layout="@layout/fragment_home_page">
+
+    </fragment>
 
     <fragment
         android:id="@+id/nav_look"
         android:name="com.example.smallredbook.ui.fragment.LookFragment"
         android:label="look"
-        tools:layout="@layout/fragment_look"/>
+        tools:layout="@layout/fragment_look">
+
+    </fragment>
 
     <fragment
         android:id="@+id/nav_message"
         android:name="com.example.smallredbook.ui.fragment.MessageFragment"
         android:label="message"
-        tools:layout="@layout/fragment_message"/>
+        tools:layout="@layout/fragment_message">
+
+    </fragment>
 
     <fragment
         android:id="@+id/nav_me"
         android:name="com.example.smallredbook.ui.fragment.MeFragment"
-        android:label="me"
-        tools:layout="@layout/fragment_me"/>
+        android:label="fragment_me"
+        tools:layout="@layout/fragment_me" >
+
+    </fragment>
 
 
 </navigation>

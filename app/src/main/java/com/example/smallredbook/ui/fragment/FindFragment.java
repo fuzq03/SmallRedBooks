@@ -22,12 +22,6 @@ public class FindFragment extends Fragment {
         // Required empty public constructor
         Log.d("Here", "This is FindFragment constructor");
     }
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        Log.d("Here", "This is FindFragment OnCreate");
-
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -51,6 +45,9 @@ public class FindFragment extends Fragment {
                 }
             }
         }).attach();
+
+
+
         return view;
     }
 }

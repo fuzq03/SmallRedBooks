@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragment.LookFragment"
-    android:background="@color/black">
+    android:background="#8000"
+    tools:context=".ui.fragment.NearFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="LookFragment"
-        android:textSize="60dp"
+        android:text="this is near fragment"
+        android:textSize="70dp"
         android:textColor="@color/white"/>
 
 </FrameLayout>

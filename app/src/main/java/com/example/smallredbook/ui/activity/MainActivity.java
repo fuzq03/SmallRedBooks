@@ -1,7 +1,9 @@
-package com.example.smallredbook;
+package com.example.smallredbook.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.smallredbook.R;
 
 public class MainActivity extends AppCompatActivity {
 
