@@ -67,5 +67,6 @@ public class CircleImageView extends androidx.appcompat.widget.AppCompatImageVie
         } else {
             super.onDraw(canvas);
         }
+        System.out.println("666");
     }
 }
